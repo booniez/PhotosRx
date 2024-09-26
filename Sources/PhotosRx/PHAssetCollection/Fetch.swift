@@ -1,3 +1,5 @@
+import Photos
+
 // 定义相册获取策略协议
 protocol AlbumFetchStrategy {
     var fetchType: PHAssetCollectionType { get }
